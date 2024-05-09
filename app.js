@@ -134,8 +134,6 @@ const cartItem = shoppingCart.map((item) => {
 })
 
 const cartBody = document.getElementById('my-cart');
-const li = document.createElement("ol");
 cartItem.forEach((item) => {
-    li.appendChild(item);
-    cartBody.appendChild(li);
+    cartBody.appendChild(item);
 })
