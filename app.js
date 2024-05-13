@@ -181,27 +181,29 @@
 
 
 
-
-
 ///  simple todo list using this array method learnt
 
 // Start with an empty list
 const taskList = [];
+
 
 // Function to add tasks using the push method
 function addTask(list, taskDescription) {
     list.push(taskDescription);
 }
 
+
 // Function to remove the first task using the shift method
 function removeFirstTask(list) {
     return list.shift(); // Removes the first task
 }
 
+
 // Function to remove the last task using the pop method
 function removeLastTask(list) {
     return list.pop(); // Removes the last task
 }
+
 
 // Function to update a task at a specific index using splice
 function updateTask(list, index, newTask) {
@@ -209,6 +211,7 @@ function updateTask(list, index, newTask) {
         list.splice(index, 1, newTask); // Replaces the task at the given index
     }
 }
+
 
 // Function to display tasks
 function displayTasks(list) {
@@ -245,3 +248,7 @@ document.getElementById("update-task").addEventListener("click", () => {
     updateTask(taskList, taskIndex, updateInput); // Update the task at a given index
     displayTasks(taskList); // Display the updated list
 });
+
+
+
+
