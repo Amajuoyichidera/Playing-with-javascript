@@ -250,5 +250,11 @@ document.getElementById("update-task").addEventListener("click", () => {
 });
 
 
+// object methods
+
+const person = { name: 'Amajuoyi Chidera David', age: 20}
+// alert(Object.keys(person));
+// alert(Object.values(person));
+alert(Object.entries(person));
 
 
