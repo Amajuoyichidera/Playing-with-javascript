@@ -255,6 +255,16 @@ document.getElementById("update-task").addEventListener("click", () => {
 const person = { name: 'Amajuoyi Chidera David', age: 20}
 // alert(Object.keys(person));
 // alert(Object.values(person));
-alert(Object.entries(person));
+//alert(Object.entries(person));
 
 
+
+// queryselector
+document.querySelector('#p1').textContent = 'p Tag with querySelector';
+
+// innerHtml and textContent
+
+const div = document.getElementById('div');
+alert(`${div.innerHTML}`);
+alert(`${div.innerText}`);
+alert(`${div.textContent}`);
