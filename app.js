@@ -265,6 +265,16 @@ document.querySelector('#p1').textContent = 'p Tag with querySelector';
 // innerHtml and textContent
 
 const div = document.getElementById('div');
-alert(`${div.innerHTML}`);
-alert(`${div.innerText}`);
-alert(`${div.textContent}`);
+// alert(`${div.innerHTML}`);
+// alert(`${div.innerText}`);
+// alert(`${div.textContent}`);
+div.addEventListener('mouseenter', function () {
+    div.innerHTML = Date();
+})
+
+div.addEventListener('mouseleave', function () {
+    div.innerHTML = "Today's Date is"
+})
+
+const text = 'abcdefghijklmnop';
+// alert(text.length);
