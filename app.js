@@ -276,5 +276,43 @@ div.addEventListener('mouseleave', function () {
     div.innerHTML = "Today's Date is"
 })
 
-const text = 'abcdefghijklmnop';
+
+// String Methods
+
+
+// string length   -> returns the length of a given string
+const text = 'aabcdefghijklmnop';
 // alert(text.length);
+
+// charAt()   ->  returns character at a given index
+//alert(text.charAt(0));
+
+//at()  -> works same as charAt but with a little differnce
+//alert(text.at(10));
+
+//slice()
+// alert(text.slice(0, 5));
+
+//substring()
+// alert(text.substring(0,5));
+
+//toUpperCase() ->  converts a string to uppercase letters.
+// alert(text.toUpperCase());
+
+//toLowerCase()  -> converts a string to lowercase letters.
+// alert(text.toLowerCase());
+
+//concat()  ->  method joins two or more strings.
+// alert(text.concat(' ', 'abro'))
+
+// trim()  ->  removes whitespace from both ends of a string.
+// alert(text.trim());
+
+//repeat() 
+// alert(text.repeat(2));
+
+//replace()
+// alert(text.replace('a', '1'));
+
+//replaceAll()
+// alert(text.replaceAll('a', '1'));
