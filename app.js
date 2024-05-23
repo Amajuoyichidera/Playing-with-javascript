@@ -316,3 +316,8 @@ const text = 'aabcdefghijklmnop';
 
 //replaceAll()
 // alert(text.replaceAll('a', '1'));
+
+// split()
+// alert(text.split(" '' "));
+
+//join()
